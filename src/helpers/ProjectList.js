@@ -1,5 +1,6 @@
 import Wwebsite from '../assets/images/Wwebsite.png'
 import business from '../assets/images/business.png'
+import expenser from '../assets/images/expenser.png'
 
 export const ProjectList = [
     {
@@ -13,6 +14,12 @@ export const ProjectList = [
         image: business,
         skills: "Javascript, HTML, CSS",
         alt: "section from business webiste"
+    },
+    {
+        name: "Expense Tracker",
+        image: expenser,
+        skills: "React, Redux, Javascript, HTML, CSS",
+        alt: "picture of expenser app"
     },
 
 ]
