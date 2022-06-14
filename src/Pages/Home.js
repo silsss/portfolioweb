@@ -12,8 +12,8 @@ function Home() {
         <h2> Hi, My Name is Silja</h2>
         <div className="prompt">
           <p>A self-taught front-end developer with a passion for learning</p>
-          <a href='https://github.com/silsss/' target={"_blank"} rel="noreferrer"><GitHubIcon /></a>
-          <a href='https://www.linkedin.com/in/silja-sorinardottir' target={'_blank'} rel="norefferer"><LinkedInIcon /></a>
+          <a href='https://github.com/silsss/' target={"_blank"} rel="noreferrer noopener"><GitHubIcon /></a>
+          <a href='https://www.linkedin.com/in/silja-sorinardottir' target={'_blank'} rel="norefferer noopener"><LinkedInIcon /></a>
           <a href="mailto:silja-s@hotmail.com?body=Hi Silja!"><EmailIcon /></a>
         </div>
       </div>
