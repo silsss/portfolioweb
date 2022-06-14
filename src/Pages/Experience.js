@@ -19,7 +19,7 @@ function Experience() {
         >
         <h3 className="vertical-timeline-element-title">Codecademy</h3>
         <h4 className="vertical-timeline-element-subtitle">Career Pathway</h4>
-        <p> Front-End Engineer</p>
+        <p> Front-End Engineer Certificate</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
