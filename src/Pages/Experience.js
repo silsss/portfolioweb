@@ -1,96 +1,80 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-
+import SchoolIcon from '@mui/icons-material/School';
+import WorkIcon from '@mui/icons-material/Work';
 
 function Experience() {
   return (
     <div className='experience'>
-      <VerticalTimeline>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-  >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2010 - 2011"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-  >
-    <h3 className="vertical-timeline-element-title">Art Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2008 - 2010"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-  >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2006 - 2008"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-  >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="April 2013"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-  >
-    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-    <p>
-      Strategy, Social Media
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="November 2012"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-  >
-    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="2002 - 2006"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-  >
-    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-    <p>
-      Creative Direction, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-    
-  />
-</VerticalTimeline>
+      <VerticalTimeline 
+      lineColor={'DarkGray'}>
+        <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'rgb(246, 255, 248)', color: 'rgb(246, 255, 248)' }}
+        contentArrowStyle={{ borderRight: '7px solid rgb(246, 255, 248)' }}
+        date="2021 - current"
+        iconStyle={{ background: 'rgb(246, 255, 248)', color: 'rgb(246, 255, 248)' }}
+        icon = {<SchoolIcon />}
+        >
+        <h3 className="vertical-timeline-element-title">Codecademy</h3>
+        <h4 className="vertical-timeline-element-subtitle">Career Pathway</h4>
+        <p> Front-End Engineer</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'rgb(246, 255, 248)', color: 'rgb(246, 255, 248)' }}
+        contentArrowStyle={{ borderRight: '7px solid rgb(246, 255, 248)' }}
+        date="2021 - 2022"
+        iconStyle={{ background: 'rgb(246, 255, 248)', color: 'rgb(246, 255, 248)' }}
+        icon = {<SchoolIcon />}
+        >
+        <h3 className="vertical-timeline-element-title">Codecademy</h3>
+        <h4 className="vertical-timeline-element-subtitle">Certificates</h4>
+        <p> Learn JavaScript, Introduction to UI and UX Design, Learn Intermediate JavaScript, Learn Python 3, Learn CSS</p>
+        </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'rgb(246, 255, 248)', color: 'rgb(246, 255, 248)' }}
+        contentArrowStyle={{ borderRight: '7px solid rgb(246, 255, 248)' }}
+        
+        date="2019 - 2022"
+        iconStyle={{ background: 'rgb(246, 255, 248)', color: 'rgb(246, 255, 248)' }}
+        icon = {<SchoolIcon />}
+        >
+        <h3 className="vertical-timeline-element-title">Sports Therapy BSc</h3>
+        <h4 className="vertical-timeline-element-subtitle">London Metropolitan University</h4>
+        <p>
+          Predicted 1st, Time management, Visual Design, Team Work, Data Analysis
+        </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'rgb(246, 255, 248)', color: 'rgb(246, 255, 248)' }}
+        date="2019 - 2021"
+        iconStyle={{  background: 'rgb(246, 255, 248)', color: 'rgb(246, 255, 248)'}}
+        icon={<WorkIcon />}
+      >
+        <h3 className="vertical-timeline-element-title">Personal Assistant / Social Media Coordinator</h3>
+        <h4 className="vertical-timeline-element-subtitle">Crossfit Central London</h4>
+        <p>
+          Problem Solving, Visual Design, SEO, Online Marketing, Customer Service
+        </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: 'rgb(246, 255, 248)', color: 'rgb(246, 255, 248)' }}
+          date="2019 - 2020"
+          iconStyle={{  background: 'rgb(246, 255, 248)', color: 'rgb(246, 255, 248)'}}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Coach</h3>
+          <h4 className="vertical-timeline-element-subtitle">Crossfit Central London</h4>
+          <p>
+            Team leading, Problem Solving, Customer Service
+          </p>
+        </VerticalTimelineElement>
+      </VerticalTimeline>
     </div>
   )
 }
