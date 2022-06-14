@@ -4,7 +4,7 @@
 
 .navbar {
     width: 100%;
-    background: #6B9080;
+    background: #CCE3DE;
     margin: auto;
   }
   
@@ -16,11 +16,11 @@
     justify-content: center;
     flex: 1;
     margin: 6px 12px;
-    color: #F6FFF8;
+    color: #6B9080;
   }
   
   .navbar a {
-    color: #F6FFF8;
+    color: #6B9080;
     text-decoration: none;
     margin: 20px;
     font-size: 25px;
